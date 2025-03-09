@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Fusion</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.css" />
+    <link rel="stylesheet" href="./CSS/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./IMAGES/NiralVerse2-Photoroom.png"
+    />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      footer {
+        background-color: #000000;
+        color: #ffffff;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-container">
+      <nav class="navbar navbar-expand-lg bg-black fixed-top">
+        <div class="container-fluid p-0">
+          <a href="main.html">
+            <img
+              class="ms-2"
+              src="./IMAGES/sunstone.png"
+              alt=""
+              style="max-width: 140px; border-radius: 10px"
+            />
+          </a>
+          <button
+            class="navbar-toggler text-white"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end bg-black text-white"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-5">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="Events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#web">Websites</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div
+      class="banner d-flex align-items-center justify-content-center"
+      style="background-image: url(./IMAGES/webDBanner.jpeg)"
+    >
+      <h1 class="mt-5 text-white" style="font-family: fantasy">
+        DESIGN FUSION
+      </h1>
+    </div>
+    <div style="background-color: #c7dbd6">
+      <div class="container">
+        <div class="row py-5">
+          <div
+            class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12"
+          >
+            <div class="image-container">
+              <img
+                src="./IMAGES/DesignFusionPoster.jpeg"
+                alt="Poster"
+                class="poster-img"
+                onclick="toggleImage()"
+              />
+              <img
+                src="./IMAGES/Design fusion Rules.jpeg"
+                alt="Rules and Regulations"
+                class="rules-img"
+                onclick="toggleImage()"
+              />
+            </div>
+            <div class="Description mt-4">
+              <p class="text-muted fs-5 mb-4">
+                Unleash your creativity in our Frontend Web Designing event!
+                Dive into the world of HTML, CSS, and JavaScript to craft
+                visually stunning and responsive websites. Whether you're a
+                beginner or a pro, showcase your skills, experiment with
+                designs, and bring your ideas to life. Get ready to design,
+                innovate, and impress!
+              </p>
+              <div class="boxmodel p-3 mt-4">
+                <p
+                  style="color: rgb(233, 61, 18); text-indent: initial"
+                  class="fw-bolder fs-3 mb-2"
+                >
+                  NOTE :
+                </p>
+                <p class="fs-5 mb-0 text-muted">
+                  Participants have the option to join either offline or online.
+                  Chennai residents are required to attend in person at
+                  Hindustan College of Arts & Science.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 d-flex justify-content-end gap-3 my-3">
+            <a href="TechnicalEvent.html"
+              ><button class="btn btn-primary">Back to Event</button></a
+            >
+            <a href="https://forms.gle/AoehCC7Y65DXw2sU8" target="_blank"
+              ><button class="btn btn-success">Register Now</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="container-fluid">
+      <div class="row py-4">
+        <div class="col-2"></div>
+        <div class="col-xxl-2 col-xl-2 col-lg col-md-2 col-sm-12 col-xs-12">
+          <img class="f-logo ms-2" src="./IMAGES/NiralVersenName.png" alt="" />
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg col-md-2 col-sm-12 col-xs-12">
+          <p class="text-white mb-3 fs-5 fw-bold">Overview</p>
+          <div class="linkC">
+            <a href="./main.html"><p class="ftext">About Us</p></a>
+            <a href="./Events.html"><p class="ftext">Events</p></a>
+            <a href="https://forms.gle/AoehCC7Y65DXw2sU8" target="_blank"
+              ><p class="ftext">Register</p></a
+            >
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg col-md-2 col-sm-12 col-xs-12">
+          <p class="text-white mb-3 fs-5 fw-bold" id="web">Websites</p>
+          <div>
+            <p class="ftext">
+              <a
+                class="subContact"
+                href="https://hcaschennai.edu.in/"
+                target="_blank"
+                >HCAS - Chennai</a
+              >
+            </p>
+            <p class="ftext">
+              <a class="subContact" href="https://sunstone.in/" target="_blank"
+                >Sunstone</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg col-md-2 col-sm-12 col-xs-12">
+          <p class="text-white mb-3 fs-5 fw-bold" id="contact">Contact Us</p>
+          <div class="d-flex flex-column gap-3">
+            <a class="subContact" href="mailto:niralverse25@gamil.com"
+              >niralverse25@gamil.com</a
+            >
+            <a class="subContact" href="https://wa.me/+919345254828"
+              >Mr Usman Ali</a
+            >
+            <a class="subContact" href="https://wa.me/+919360331266"
+              >Mr Madhusudan</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./JS/bootstrap.js"></script>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
