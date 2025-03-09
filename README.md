@@ -8,7 +8,7 @@ Welcome to **NiralVerse 2K25**, a dynamic and creative web design project built 
 
 ## 🔥 Live Demo
 
-🔗 **View the Website** (https://niral-verse2k25.netlify.app/)
+🔗 **View the Website**: [https://your-netlify-link.netlify.app](https://your-netlify-link.netlify.app)
 
 ---
 
@@ -28,7 +28,7 @@ Welcome to **NiralVerse 2K25**, a dynamic and creative web design project built 
 | **HTML5**        | Structure of the Website    |
 | **CSS3**         | Styling & Layout            |
 | **JavaScript**   | Interactivity & Animations  |
-| **Bootstrap**    | Responsive Design           |
+| **Bootstrap 5**  | Responsive Design           |
 | **Netlify**      | Hosting & Deployment        |
 
 ---
@@ -74,7 +74,7 @@ cd Niral-verse2k25
 
 ### 🔥 Run Locally
 
-Open `index.html` in a browser or use a live server:
+Open `index.html` in a browser or start a live server using the following command:
 
 ```sh
 npx live-server
@@ -104,34 +104,7 @@ netlify deploy --prod
 
 ---
 
-## 🤝 Contributing
-
-🎯 Contributions are welcome! To contribute:
-
-1️⃣ **Fork the repository**  
-2️⃣ **Create a branch:**
-
-```sh
-git checkout -b feature-branch
-```
-
-3️⃣ **Make changes and commit:**
-
-```sh
-git commit -m "Added a new feature"
-```
-
-4️⃣ **Push to GitHub:**
-
-```sh
-git push origin feature-branch
-```
-
-5️⃣ **Open a Pull Request** 🚀
-
----
-
 ## 📩 Contact & Socials
 
 📧 **Email:** madhusudan04337@gmail.com  
-💼 **LinkedIn:** https://www.linkedin.com/in/madhu-sudan-0006a429a/  
+💼 **LinkedIn:** [https://www.linkedin.com/in/madhu-sudan-0006a429a/](https://www.linkedin.com/in/madhu-sudan-0006a429a/)  
